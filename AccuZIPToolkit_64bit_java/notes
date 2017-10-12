@@ -1,0 +1,18 @@
+
+All versions need to be  64 bit
+
+ AccuAddress.dll 64 bit must be registered => see http://www.accuzip.com/files/AccuZIPToolkit.pdf
+
+download ServoyGuy_ServoyCOM-v1.1.6 from => http://servoyguy.com/servoy_components/servoy_com_plugin (used ServoyGuy_ServoyCOM-v1.1.6)
+
+download JACOB - Java COM Bridge =>  http://sourceforge.net/projects/jacob-project/  (used jacob-1.18-M2)
+
+add servoyGuy_servoycom.jar and jacob.jar to your class path of your development environment.
+
+Need to place the jacob-1.18-x64.dll in a known file path and modify this file path in AccuZipToJava2(see initializer block). 
+
+
+
+-Dcom.jacob.autogc=true  =>  garbage collection for Jacob.jar
+
+
